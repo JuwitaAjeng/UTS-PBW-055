@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	background-position: cover;
+}
+
+.box{
+	border: black solid;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 900px;
+	height: 420px;
+	box-sizing: border-box;
+	background: white;
+}
